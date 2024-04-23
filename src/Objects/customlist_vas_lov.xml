@@ -1,0 +1,34 @@
+<customlist scriptid="customlist_vas_lov">
+  <description></description>
+  <isinactive>F</isinactive>
+  <ismatrixoption>F</ismatrixoption>
+  <isordered>T</isordered>
+  <name>LOV_VAS Report</name>
+  <customvalues>
+    <customvalue scriptid="val_vas_lov_cdkt">
+      <abbreviation>B</abbreviation>
+      <isinactive>F</isinactive>
+      <value>BC-CDKT</value>
+    </customvalue>
+    <customvalue scriptid="val_vas_lov_kqhdkd">
+      <abbreviation>B</abbreviation>
+      <isinactive>F</isinactive>
+      <value>BC-KQHDKD</value>
+    </customvalue>
+    <customvalue scriptid="val_vas_lov_lctt_gt">
+      <abbreviation>B</abbreviation>
+      <isinactive>F</isinactive>
+      <value>BC-LCTT_GT</value>
+    </customvalue>
+    <customvalue scriptid="val_vas_lov_lctt_tt">
+      <abbreviation>B</abbreviation>
+      <isinactive>F</isinactive>
+      <value>BC-LCTT_TT</value>
+    </customvalue>
+    <customvalue scriptid="val_vas_lov_cdps">
+      <abbreviation>B</abbreviation>
+      <isinactive>F</isinactive>
+      <value>BC-CDPS</value>
+    </customvalue>
+  </customvalues>
+</customlist>

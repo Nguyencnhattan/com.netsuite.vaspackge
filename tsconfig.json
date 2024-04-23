@@ -1,0 +1,40 @@
+{
+    "compilerOptions": {
+        "module": "amd",
+        "target": "ES6",
+        "moduleResolution": "node",
+        "sourceMap": false,
+        "outDir": "src/FileCabinet/SuiteApps/com.netsuite.vaspackge/src",
+        "lib": [
+            "es6",
+            "ES2019",
+            "DOM"
+        ],
+        "paths": {
+            "N": [
+                "./node_modules/@hitc/netsuite-types/N"
+            ],
+            "N/*": [
+                "./node_modules/@hitc/netsuite-types/N/*"
+            ]
+        },
+        "plugins": [{
+            "name": "typescript-lit-html-plugin"
+        }],
+        "alwaysStrict": true,
+        "noEmitOnError": false,
+        "noImplicitReturns": true,
+        // "noUnusedLocals": true,
+        "skipLibCheck": true,
+    },
+    "exclude": [
+        "node_modules"
+    ],
+    "include": [
+        "src/TypeScript/SuiteApps/"
+    ],
+    "scripts": {
+        "start": "npm-run-all  --parallel watch:build",
+        "watch:build": "tsc --watch",
+    }
+}

@@ -1,0 +1,39 @@
+{
+  "name": "suitecloud-project",
+  "version": "1.0.0", 
+  "dependencies": {
+    "nodemon": "^2.0.20",
+    "npm-run-all": "^4.1.5",
+    "rimraf": "^3.0.2",
+    "slim-select": "^2.3.3"
+},
+  "scripts": {
+    "start": "npm-run-all  --parallel watch:build",
+    "watch:build": "tsc --watch"
+},
+  "devDependencies": {
+    "@hitc/netsuite-types": "^2024.1.0",
+    "@oracle/suitecloud-unit-testing": "^1.5.0",
+    "@types/jest": "29.5.11",
+    "jest": "29.7.0",
+    "@types/jquery": "^3.5.16", "typescript": "^5.3.2",
+    "typescript-lit-html-plugin": "^0.9.0"
+  },
+  "contributes": {
+    "grammars": [
+        {
+            "path": "./syntaxes/injection.json",
+            "scopeName": "sql-string.injection",
+            "injectTo": [
+                "source.js"
+            ],
+            "embeddedLanguages": {
+                "my.sql.template.string": "sql"
+            },
+            "tokenTypes": {
+                "my.sql.template.string": "other"
+            }
+        }
+    ]
+}
+}

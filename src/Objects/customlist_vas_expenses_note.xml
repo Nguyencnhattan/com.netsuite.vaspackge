@@ -1,0 +1,19 @@
+<customlist scriptid="customlist_vas_expenses_note">
+  <description>Note cho một số chỉ tiêu mapping với tài khoản lưỡng tính</description>
+  <isinactive>F</isinactive>
+  <ismatrixoption>F</ismatrixoption>
+  <isordered>T</isordered>
+  <name>BC-Chỉ Tiêu_Nợ/Có</name>
+  <customvalues>
+    <customvalue scriptid="val_chi_tieu_no">
+      <abbreviation>N</abbreviation>
+      <isinactive>F</isinactive>
+      <value>Nợ</value>
+    </customvalue>
+    <customvalue scriptid="val_chi_tieu_co">
+      <abbreviation>C</abbreviation>
+      <isinactive>F</isinactive>
+      <value>Có</value>
+    </customvalue>
+  </customvalues>
+</customlist>

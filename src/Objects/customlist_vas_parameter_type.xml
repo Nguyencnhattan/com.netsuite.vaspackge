@@ -1,0 +1,134 @@
+<customlist scriptid="customlist_vas_parameter_type">
+  <description></description>
+  <isinactive>F</isinactive>
+  <ismatrixoption>F</ismatrixoption>
+  <isordered>T</isordered>
+  <name>Parameter Type</name>
+  <customvalues>
+    <customvalue scriptid="val_vas_parameter_type_date">
+      <abbreviation>D</abbreviation>
+      <isinactive>F</isinactive>
+      <value>DATE</value>
+    </customvalue>
+    <customvalue scriptid="val_vas_parameter_type_select">
+      <abbreviation>S</abbreviation>
+      <isinactive>F</isinactive>
+      <value>SELECT</value>
+    </customvalue>
+    <customvalue scriptid="val_vas_parameter_type_checkbox">
+      <abbreviation>C</abbreviation>
+      <isinactive>F</isinactive>
+      <value>CHECKBOX</value>
+    </customvalue>
+    <customvalue scriptid="val_vas_parameter_type_currency">
+      <abbreviation>C</abbreviation>
+      <isinactive>F</isinactive>
+      <value>CURRENCY</value>
+    </customvalue>
+    <customvalue scriptid="val_vas_parameter_type_datetimetz">
+      <abbreviation>D</abbreviation>
+      <isinactive>F</isinactive>
+      <value>DATETIMETZ</value>
+    </customvalue>
+    <customvalue scriptid="val_vas_parameter_type_datetime">
+      <abbreviation>D</abbreviation>
+      <isinactive>F</isinactive>
+      <value>DATETIME</value>
+    </customvalue>
+    <customvalue scriptid="val_vas_parameter_type_email">
+      <abbreviation>E</abbreviation>
+      <isinactive>F</isinactive>
+      <value>EMAIL</value>
+    </customvalue>
+    <customvalue scriptid="val_vas_parameter_type_file">
+      <abbreviation>F</abbreviation>
+      <isinactive>F</isinactive>
+      <value>FILE</value>
+    </customvalue>
+    <customvalue scriptid="val_vas_parameter_type_float">
+      <abbreviation>F</abbreviation>
+      <isinactive>F</isinactive>
+      <value>FLOAT</value>
+    </customvalue>
+    <customvalue scriptid="val_vas_parameter_type_help">
+      <abbreviation>H</abbreviation>
+      <isinactive>F</isinactive>
+      <value>HELP</value>
+    </customvalue>
+    <customvalue scriptid="val_vas_parameter_type_image">
+      <abbreviation>I</abbreviation>
+      <isinactive>F</isinactive>
+      <value>IMAGE</value>
+    </customvalue>
+    <customvalue scriptid="val_vas_parameter_type_inlinehtml">
+      <abbreviation>I</abbreviation>
+      <isinactive>F</isinactive>
+      <value>INLINEHTML</value>
+    </customvalue>
+    <customvalue scriptid="val_vas_parameter_type_integer">
+      <abbreviation>I</abbreviation>
+      <isinactive>F</isinactive>
+      <value>INTEGER</value>
+    </customvalue>
+    <customvalue scriptid="val_vas_parameter_type_label">
+      <abbreviation>L</abbreviation>
+      <isinactive>F</isinactive>
+      <value>LABEL</value>
+    </customvalue>
+    <customvalue scriptid="val_vas_parameter_type_longtext">
+      <abbreviation>L</abbreviation>
+      <isinactive>F</isinactive>
+      <value>LONGTEXT</value>
+    </customvalue>
+    <customvalue scriptid="val_vas_parameter_type_multiselect">
+      <abbreviation>M</abbreviation>
+      <isinactive>F</isinactive>
+      <value>MULTISELECT</value>
+    </customvalue>
+    <customvalue scriptid="val_vas_parameter_type_password">
+      <abbreviation>P</abbreviation>
+      <isinactive>F</isinactive>
+      <value>PASSWORD</value>
+    </customvalue>
+    <customvalue scriptid="val_vas_parameter_type_percent">
+      <abbreviation>P</abbreviation>
+      <isinactive>F</isinactive>
+      <value>PERCENT</value>
+    </customvalue>
+    <customvalue scriptid="val_vas_parameter_type_phone">
+      <abbreviation>P</abbreviation>
+      <isinactive>F</isinactive>
+      <value>PHONE</value>
+    </customvalue>
+    <customvalue scriptid="val_vas_parameter_type_radio">
+      <abbreviation>R</abbreviation>
+      <isinactive>F</isinactive>
+      <value>RADIO</value>
+    </customvalue>
+    <customvalue scriptid="val_vas_parameter_type_richtext">
+      <abbreviation>R</abbreviation>
+      <isinactive>F</isinactive>
+      <value>RICHTEXT</value>
+    </customvalue>
+    <customvalue scriptid="val_vas_parameter_type_text">
+      <abbreviation>T</abbreviation>
+      <isinactive>F</isinactive>
+      <value>TEXT</value>
+    </customvalue>
+    <customvalue scriptid="val_vas_parameter_type_textarea">
+      <abbreviation>T</abbreviation>
+      <isinactive>F</isinactive>
+      <value>TEXTAREA</value>
+    </customvalue>
+    <customvalue scriptid="val_vas_parameter_type_timeofday">
+      <abbreviation>T</abbreviation>
+      <isinactive>F</isinactive>
+      <value>TIMEOFDAY</value>
+    </customvalue>
+    <customvalue scriptid="val_vas_parameter_type_url">
+      <abbreviation>U</abbreviation>
+      <isinactive>F</isinactive>
+      <value>URL</value>
+    </customvalue>
+  </customvalues>
+</customlist>

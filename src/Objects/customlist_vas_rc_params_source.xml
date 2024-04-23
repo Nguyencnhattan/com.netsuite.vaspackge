@@ -1,0 +1,24 @@
+<customlist scriptid="customlist_vas_rc_params_source">
+  <description></description>
+  <isinactive>F</isinactive>
+  <ismatrixoption>F</ismatrixoption>
+  <isordered>T</isordered>
+  <name>Parameter Source</name>
+  <customvalues>
+    <customvalue scriptid="val_params_source_sql">
+      <abbreviation>S</abbreviation>
+      <isinactive>F</isinactive>
+      <value>SQL</value>
+    </customvalue>
+    <customvalue scriptid="val_params_source_ss">
+      <abbreviation>S</abbreviation>
+      <isinactive>F</isinactive>
+      <value>Saved Search</value>
+    </customvalue>
+    <customvalue scriptid="val_params_source_record">
+      <abbreviation>R</abbreviation>
+      <isinactive>F</isinactive>
+      <value>Record</value>
+    </customvalue>
+  </customvalues>
+</customlist>
